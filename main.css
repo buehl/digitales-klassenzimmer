@@ -26,11 +26,14 @@
 }
 .button-box {
   position: absolute;
-  top: 8px;
+  top: 20px;
   right: 8px;
   width: 50%;
   padding: 10px;
   text-align: right;
+}
+.button-box img {
+  width: 80px;
 }
 #jitsiMeet {
   height: 100%;
