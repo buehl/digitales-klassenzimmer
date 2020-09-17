@@ -115,7 +115,7 @@ function roomCallback(data) {
 };
 
 function startRoom() {
-	klID = document.getElementById("klID").value;
+	klID = document.getElementById("klID").value.toLowerCase();
 	console.log("Start Room", klID);
 
 	if (klID == "") {
